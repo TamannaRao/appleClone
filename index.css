@@ -2,6 +2,9 @@
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 nav{
     margin-top: 0px;
@@ -194,14 +197,16 @@ header{
     left:0px;
     right:0px;
     top:270vh;
-   
+    display:grid;
+    grid-template-columns:50vw 50vw;
 }
-.container{
+/* .container{
     display:flex;
     justify-content:space-around;
     
   
-}
+} */
+
 #one h1,#two h1,#three h1,#four h1,#six h1{
     text-align:center;
     font-size: 40px;
@@ -237,6 +242,7 @@ header{
 .img1 img{
       height:220px;
       margin-top:70px;
+      margin-left:60px;
 }
 .img2 img{
     height:20vw;
@@ -268,13 +274,14 @@ header{
 }
 #three>img{
     height:270px;
-    width:49.5vw;
+    width:49vw;
     margin-top:100px;
     margin-bottom:80px;
 }
 
 #four #img img{
     height:345px;
+    /* width:35vw; */
     margin-top:80px;
     margin-bottom:0px;
    
@@ -321,6 +328,15 @@ header{
     margin-top:80px;
     margin-bottom:0px;
 }
+#three{
+    width:49.5vw;
+}
+.item{
+    /* height:80vh;
+    width:45vw; */
+    margin:8px;
+}
+
 .fifth{
     position: relative;
     top:517vh;
